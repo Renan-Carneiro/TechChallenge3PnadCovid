@@ -19,7 +19,7 @@ with st.container():
     st.header('O Desafio')
     st.write(
         """
-        Fomos desafiados a nos imaginarmos como experts em Data Analytics de um grande hospital para entender como foi o comportamento da população durante a pandemia de Coronavírus e para identificar quais seriam os melhores indicadores para o planejamento em um novo cenário de surto da doença.
+        Esse estudo é para a Pós Graduação em Data Analytics da FIAP, entregue em 05/2024.
         """
     )
     st.write('[FIAP](https://postech.fiap.com.br/)')
