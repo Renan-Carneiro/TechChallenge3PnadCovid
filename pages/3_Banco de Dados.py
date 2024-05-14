@@ -33,18 +33,18 @@ with tab2:
     | Pergunta | Código | Descrição |
     | -------- | ------ | --------- |
     | 1 | B0011 | Na semana passada teve febre? |
-    | 2 | B00110 | Na semana passada teve tosse? |
-    | 3 | B00111 | Na semana passada teve dor de garganta? |
-    | 4 | B00112 | Na semana passada teve dificuldade para respirar? |
-    | 5 | B00113 | Na semana passada teve dor de cabeça? |
-    | 6 | B0012 | Na semana passada teve dor no peito? |
-    | 7 | B0013 | Na semana passada teve náusea? |
-    | 8 | B0014 | Na semana passada teve nariz entupido ou escorrendo? |
-    | 9 | B0015 | Na semana passada teve fadiga? |
-    | 10 | B0016 | Na semana passada teve dor nos olhos? |
-    | 11 | B0017 | Na semana passada teve perda de cheiro ou sabor? |
-    | 12 | B0018 | Na semana passada teve dor muscular? |
-    | 13 | B0019 | Na semana passada teve diarreia? |
+    | 2 | B00110 | Na semana passada teve dor nos olhos? |
+    | 3 | B00111 | Na semana passada teve perda de cheiro ou sabor? |
+    | 4 | B00112 | Na semana passada teve dor muscular? |
+    | 5 | B00113 | Na semana passada teve diarreia? |
+    | 6 | B0012 | Na semana passada teve tosse? |
+    | 7 | B0013 | Na semana passada teve dor de garganta? |
+    | 8 | B0014 | Na semana passada teve dificuldade para respirar? |
+    | 9 | B0015 | Na semana passada teve dor de cabeça? |
+    | 10 | B0016 | Na semana passada teve dor no peito? |
+    | 11 | B0017 | Na semana passada teve náusea? |
+    | 12 | B0018 | Na semana passada teve nariz entupido ou escorrendo? |
+    | 13 | B0019 | Na semana passada teve fadiga? |
     | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
     | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
     | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
@@ -53,7 +53,8 @@ with tab2:
     | 17* | B009F | Qual o resultado? (Veia) |
     | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
     | 19 | F002A2 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
-    | 20 | F002A3 | Auxílios emergenciais relacionados ao coronavirus |
+    | 20 | F002A3 | No seu domicílio há os seguintes itens básicos de limpeza e proteção: máscaras |
+
     * Foi considerado apenas uma pergunta para essas 3, visto que juntas elas dão a resposta do teste para COVID de forma geral.
 
     ### Informações Pessoais
@@ -80,8 +81,13 @@ with tab3:
     ## Passos tomados
     
     1. Foi realizada uma Query em SQL para extrair todos os dados relevantes dos meses de setembro a novembro de 2020. A Query está representada na imagem a seguir, e pode ser encontrada tambem no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid).
+    """
     image = Image.open("./imagens/Base de Dados/2QueryBigQuery.png")
     st.image(image)
-
-    Assim, o Google BigQuery desempenhou um papel fundamental ao facilitar o acesso e a manipulação dos dados da PNAD, contribuindo significativamente para a realização da análise proposta e para a obtenção de resultados embasados a partir dessas informações.
-    """)
+    st.markdown("""
+    2. Foi armazenado o resultado dessa pesquisa no Google Cloud, no caminho **"techchallengepnad.Pnad91011.TabelaPrincipal09a11"**
+    """   )
+    image = Image.open("./imagens/Base de Dados/3BaseAposQuery")
+    st.image(image)
+    image = Image.open("./imagens/Base de Dados/4detalhesBasePosQuery")
+    st.image(image)
