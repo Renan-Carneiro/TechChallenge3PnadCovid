@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title('Banco de Dados')
+st.title('Gráficos e Resultados')
 
 tab1, tab2 = st.tabs(["Análise Demográfica","Análise de Sintomas"])
 with tab1:
