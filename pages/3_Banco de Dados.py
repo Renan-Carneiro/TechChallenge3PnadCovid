@@ -87,7 +87,7 @@ with tab3:
     st.markdown("""
     2. Foi armazenado o resultado dessa pesquisa no Google Cloud, no caminho **"techchallengepnad.Pnad91011.TabelaPrincipal09a11"**
     """   )
-    image = Image.open("./imagens/Base de Dados/3BaseAposQuery")
+    image = Image.open("./imagens/Base de Dados/3BaseAposQuery.png")
     st.image(image)
-    image = Image.open("./imagens/Base de Dados/4detalhesBasePosQuery")
+    image = Image.open("./imagens/Base de Dados/4detalhesBasePosQuery.png")
     st.image(image)
