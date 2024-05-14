@@ -3,16 +3,21 @@ from PIL import Image
 
 st.title('Banco de Dados')
 
-st.markdown("""
-# PNAD COVID
-A Pesquisa Nacional por Amostra de Domicílios – COVID-19 ou simplesmente [PNAD Covid](https://basedosdados.org/dataset/c747a59f-b695-4d19-82e4-fef703e74c17?table=5894e1ac-dc08-465d-91a3-703683da85ba), não é apenas uma pesquisa, mas uma iniciativa do IBGE (Instituto Brasileiro de Geografia e Estatística) que buscou entender efeitos da pandemia em nosso país.
-Através do PNAD, buscou-se mensurar o impacto da pandemia nas mais diferentes esferas, e, por essa razão, foi necessário um vasto questionário com perguntas envolvendo questões clínicas, socioeconômicas e características da população.
+tab1, tab2, tab3 = st.tabs(["PNAD Covid-19","Perguntas Escolhidas","Big Query"])
+with tab1:
+    st.markdown("""
+    # PNAD COVID
+    A Pesquisa Nacional por Amostra de Domicílios – COVID-19 ou simplesmente [PNAD Covid](https://covid19.ibge.gov.br/), não é apenas uma pesquisa, mas uma iniciativa do IBGE (Instituto Brasileiro de Geografia e Estatística) que buscou entender efeitos da pandemia em nosso país.
+    Através do PNAD, buscou-se mensurar o impacto da pandemia nas mais diferentes esferas, e, por essa razão, foi necessário um vasto questionário com perguntas envolvendo questões clínicas, socioeconômicas e características da população.
 
-Sem uma pesquisa dessa magnitude, seria extremamente difícil entender os problemas causados, bem como identificar os mais afetados pela maior crise sanitária do século.
+    Sem uma pesquisa dessa magnitude, seria extremamente difícil entender os problemas causados, bem como identificar os mais afetados pela maior crise sanitária do século.
 
-Através da análise dos dados colhidos, é possível traçar estratégias políticas que poderão não só minimizar o impacto como também evitar futuros cenários como o que vimos durante a pandemia.
+    Através da análise dos dados colhidos, é possível traçar estratégias políticas que poderão não só minimizar o impacto como também evitar futuros cenários como o que vimos durante a pandemia.
+    """)
 
-## Selecionado as perguntas
+with tab2:
+    st.markdown("""
+    # Selecionado as perguntas
 Ao selecionar as perguntas para análise dos dados, consideramos a importância de questões que identificam sintomas, impacto na saúde, acesso a serviços médicos e medidas preventivas durante a pandemia. Além disso, incluímos dados sociodemográficos para uma análise mais detalhada. 
 Iniciamos com a abordagem dos sintomas, destacando a importância de questões que identificam sintomas característicos, como febre, perda de cheiro ou sabor, tosse, entre outros, os quais são cruciais para a identificação de possíveis padrões de manifestações clínicas.
 
@@ -22,4 +27,57 @@ Considerando o contexto da pandemia do Coronavírus, incorporamos questionamento
 
 Por fim, a inclusão de dados sociodemográficos, como idade, sexo, etnia, escolaridade, unidade da federação, entre outros, busca fornecer subsídios para uma análise mais detalhada e estratificada dos resultados, considerando as especificidades de diferentes grupos populacionais.
 Dessa forma, a escolha das perguntas para análise reflete a preocupação em obter dados abrangentes e significativos, capazes de contribuir para uma melhor compreensão dos fenômenos em estudo e para o desenvolvimento de estratégias eficazes no âmbito da saúde pública.
-""")
+
+Veja abaixo os itens selecionados:
+        | Pergunta | Código | Descrição |
+        | -------- | ------ | --------- |
+        | 1 | B0011 | Na semana passada teve febre? |
+        | 2 | B00110 | Na semana passada teve tosse? |
+        | 3 | B00111 | Na semana passada teve dor de garganta? |
+        | 4 | B00112 | Na semana passada teve dificuldade para respirar? |
+        | 5 | B00113 | Na semana passada teve dor de cabeça? |
+        | 6 | B0012 | Na semana passada teve dor no peito? |
+        | 7 | B0013 | Na semana passada teve náusea? |
+        | 8 | B0014 | Na semana passada teve nariz entupido ou escorrendo? |
+        | 9 | B0015 | Na semana passada teve fadiga? |
+        | 10 | B0016 | Na semana passada teve dor nos olhos? |
+        | 11 | B0017 | Na semana passada teve perda de cheiro ou sabor? |
+        | 12 | B0018 | Na semana passada teve dor muscular? |
+        | 13 | B0019 | Na semana passada teve diarreia? |
+        | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
+        | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
+        | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
+        | 17 | B009B | Qual o resultado? (SWAB) |
+        | 17 | B009D | Qual o resultado? (Dedo) |
+        | 17 | B009F | Qual o resultado? (Veia) |
+        | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
+        | 19 | F002A2 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
+        | 20 | F002A3 | Auxílios emergenciais relacionados ao coronavirus |
+
+
+        | Código | Descrição |
+        | ------ | --------- |
+        | A002 | Idade do morador |
+        | A003 | Sexo |
+        | A004 | Cor ou raça |
+        | A005 | Escolaridade |
+        | UF | Unidade da Federação |
+        | mês | Mês da pesquisa |
+        | V1022 | Situação do domicílio |
+
+
+    """)
+with tab3:
+    st.markdown("""
+    # BigQuery
+    No trabalho mencionado, uma fonte essencial de dados para nossa análise foi o Google BigQuery. O Google BigQuery é um serviço de data warehouse e análise de dados na nuvem oferecido pela Google Cloud Platform. Ele foi projetado para processar e analisar grandes conjuntos de dados de forma eficiente, permitindo consultas rápidas e escalabilidade conforme necessário.
+
+    Os dados da Pesquisa Nacional por Amostra de Domicílios (PNAD) foram armazenados no Google BigQuery e podem ser acessados através desse [link](https://basedosdados.org/dataset/c747a59f-b695-4d19-82e4-fef703e74c17?table=5894e1ac-dc08-465d-91a3-703683da85ba).
+    Por meio dessa plataforma, pudemos acessar, explorar e analisar os dados da PNAD de maneira ágil e eficaz, executando consultas complexas e extraindo insights relevantes para nosso estudo.
+
+    ## Passos tomados
+    
+    1. Foi realizada uma Query em SQL para extrair todos os dados relevantes dos meses de setembro a novembro de 2020. A Query está representada na imagem a seguir, e pode ser encontrada tambem no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid)
+
+    Assim, o Google BigQuery desempenhou um papel fundamental ao facilitar o acesso e a manipulação dos dados da PNAD, contribuindo significativamente para a realização da análise proposta e para a obtenção de resultados embasados a partir dessas informações.
+    """)
