@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.markdown(**Introdução**
+st.markdown("**Introdução**
 
 Fomos desafiados a nos imaginarmos como experts em Data Analytics de um grande hospital para entender como foi o comportamento da população durante a pandemia de Coronavírus e para identificar quais seriam os melhores indicadores para o planejamento em um novo cenário de surto da doença.
 
@@ -21,4 +21,4 @@ Além disso, ao entrarmos na base de dados do PNAD-COVID-19 e organizarmos esta 
 - Comportamento da população na época da COVID-19;
 - Características econômicas da Sociedade.
 
-A partir dessas condições, trouxemos uma breve análise dessas informações, explicitando o modo como organizamos o banco de dados, o porquê da seleção das melhores perguntas que trariam as melhores respostas e, por fim, as ações mais efetivas que o hospital deverá tomar em caso de um novo surto de COVID-19.)
+A partir dessas condições, trouxemos uma breve análise dessas informações, explicitando o modo como organizamos o banco de dados, o porquê da seleção das melhores perguntas que trariam as melhores respostas e, por fim, as ações mais efetivas que o hospital deverá tomar em caso de um novo surto de COVID-19.")
