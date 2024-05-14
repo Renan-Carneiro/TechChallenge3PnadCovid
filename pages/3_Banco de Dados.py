@@ -5,7 +5,7 @@ st.title('Banco de Dados')
 
 st.markdown("""
 # PNAD COVID
-A Pesquisa Nacional por Amostra de Domicílios – COVID-19 ou simplesmente PNAD Covid, não é apenas uma pesquisa, mas uma iniciativa do IBGE (Instituto Brasileiro de Geografia e Estatística) que buscou entender efeitos da pandemia em nosso país.
+A Pesquisa Nacional por Amostra de Domicílios – COVID-19 ou simplesmente [PNAD Covid](https://basedosdados.org/dataset/c747a59f-b695-4d19-82e4-fef703e74c17?table=5894e1ac-dc08-465d-91a3-703683da85ba), não é apenas uma pesquisa, mas uma iniciativa do IBGE (Instituto Brasileiro de Geografia e Estatística) que buscou entender efeitos da pandemia em nosso país.
 Através do PNAD, buscou-se mensurar o impacto da pandemia nas mais diferentes esferas, e, por essa razão, foi necessário um vasto questionário com perguntas envolvendo questões clínicas, socioeconômicas e características da população.
 
 Sem uma pesquisa dessa magnitude, seria extremamente difícil entender os problemas causados, bem como identificar os mais afetados pela maior crise sanitária do século.
