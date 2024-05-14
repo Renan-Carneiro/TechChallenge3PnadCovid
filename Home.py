@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title="Tech Challenge3: PNAD COVID", page_icon=":house:")
+st.set_page_config(page_title="Tech Challenge3: PNAD COVID", page_icon=":house:",layout='wide')
 st.sidebar.success("Selecione uma página acima.")
 image = Image.open("./imagens/covid.png")
 st.image(image)
@@ -23,5 +23,3 @@ with st.container():
             """
         )
         st.write('[FIAP](https://postech.fiap.com.br/)')
-    with right_column:
-        st_lottie(lottie_animation,height=300,key='covid')
