@@ -4,7 +4,8 @@ from PIL import Image
 st.title('Conclusão')
 
 st.markdown("""
-# **Ao nos depararmos com a problemática trazida, é fundamental compreender que todas as estratégias e ações necessárias para lidar com a situação devem ser tomadas de forma integrada, envolvendo não apenas as instituições de saúde, mas também a sociedade como um todo e por meio de políticas públicas eficazes. A resposta a um surto de COVID-19 requer uma abordagem abrangente e colaborativa, que enfatize a importância da cooperação entre o setor público, privado, profissionais de saúde e a comunidade em geral.
+# Conclusão
+Ao nos depararmos com a problemática trazida, é fundamental compreender que todas as estratégias e ações necessárias para lidar com a situação devem ser tomadas de forma integrada, envolvendo não apenas as instituições de saúde, mas também a sociedade como um todo e por meio de políticas públicas eficazes. A resposta a um surto de COVID-19 requer uma abordagem abrangente e colaborativa, que enfatize a importância da cooperação entre o setor público, privado, profissionais de saúde e a comunidade em geral.
 Considerando essa premissa, as recomendações e medidas a serem adotadas pelo hospital para enfrentar um potencial novo surto de COVID-19 devem estar alinhadas com estratégias governamentais, diretrizes de saúde pública e a participação ativa da sociedade. A integração entre as diversas esferas da sociedade e a implementação de políticas que visem o bem-estar coletivo são essenciais para mitigar os impactos de surtos e garantir uma resposta eficaz e coordenada diante de desafios de saúde pública.
 
 Ainda assim, o hospital pode e deve tomar diversas medidas a fim de mitigar os impactos de um novo surto. Entre elas estão:
