@@ -14,7 +14,8 @@ O estudo do PNAD-COVID-19, realizado pelo IBGE (Instituo Brasileiro de Geografia
 - Características da população;
 - Características da sociedade;
 
-## Além disso, ao entrarmos na base de dados do PNAD-COVID-19 e organizarmos esta base para análise, trouxemos as seguintes características:
+## Condições
+Além disso, ao entrarmos na base de dados do PNAD-COVID-19 e organizarmos esta base para análise, trouxemos as seguintes características:
 
 - Utilização de no máximo 20 perguntas feitas na pesquisa;
 - Utilizar 3 meses para construção da solução;
