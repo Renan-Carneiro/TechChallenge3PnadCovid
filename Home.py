@@ -15,11 +15,11 @@ with st.container():
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
-    with left_column:
-        st.header('O Desafio')
-        st.write(
-            """
-           Fomos desafiados a nos imaginarmos como experts em Data Analytics de um grande hospital para entender como foi o comportamento da população durante a pandemia de Coronavírus e para identificar quais seriam os melhores indicadores para o planejamento em um novo cenário de surto da doença.
-            """
-        )
-        st.write('[FIAP](https://postech.fiap.com.br/)')
+
+    st.header('O Desafio')
+    st.write(
+        """
+        Fomos desafiados a nos imaginarmos como experts em Data Analytics de um grande hospital para entender como foi o comportamento da população durante a pandemia de Coronavírus e para identificar quais seriam os melhores indicadores para o planejamento em um novo cenário de surto da doença.
+        """
+    )
+    st.write('[FIAP](https://postech.fiap.com.br/)')
