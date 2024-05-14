@@ -33,7 +33,7 @@ with tab1:
     st.markdown("""
     Houve uma maior incidência na população indígena, o que pode ser um ponto de atenção, por se tratar de uma parcela vulnerável da população, que exige maior monitoramento por parte da saúde pública.
     """)
-        st.markdown("""
+    st.markdown("""
     ## Top 10 Estados por Porcentagem de Respondentes e Porcentagem de Teste Positivo
     """)
     image = Image.open("./imagens/Graficos/estadosEpositivos.png")
