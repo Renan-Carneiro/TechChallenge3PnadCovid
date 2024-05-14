@@ -1,21 +1,11 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
+from PIL import Image
 
-
+image = Image.open("./imagens/covid.png")
+st.image(image)
 
 st.set_page_config(page_title='Tech Challenge3: PNAD COVID' , page_icon='✔' , layout='wide')
 st.sidebar.success("Selecione uma página acima.")
-
-
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-
-#asset
-lottie_animation = load_lottieurl('https://lottie.host/embed/fe826aed-b1b4-4a22-9b27-bd28df64b43b/VgeaePd6aS.json')
 
 #Header
 with st.container():
