@@ -81,7 +81,7 @@ with tab3:
     ## Passos tomados
     
     1. Foi realizada uma Query em SQL para extrair todos os dados relevantes dos meses de setembro a novembro de 2020. A Query está representada na imagem a seguir, e pode ser encontrada tambem no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid).
-    """
+    """)
     image = Image.open("./imagens/Base de Dados/2QueryBigQuery.png")
     st.image(image)
     st.markdown("""
