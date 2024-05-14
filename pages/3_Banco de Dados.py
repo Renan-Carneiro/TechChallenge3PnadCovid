@@ -18,52 +18,53 @@ with tab1:
 with tab2:
     st.markdown("""
     # Selecionado as perguntas
-Ao selecionar as perguntas para análise dos dados, consideramos a importância de questões que identificam sintomas, impacto na saúde, acesso a serviços médicos e medidas preventivas durante a pandemia. Além disso, incluímos dados sociodemográficos para uma análise mais detalhada. 
-Iniciamos com a abordagem dos sintomas, destacando a importância de questões que identificam sintomas característicos, como febre, perda de cheiro ou sabor, tosse, entre outros, os quais são cruciais para a identificação de possíveis padrões de manifestações clínicas.
+    Ao selecionar as perguntas para análise dos dados, consideramos a importância de questões que identificam sintomas, impacto na saúde, acesso a serviços médicos e medidas preventivas durante a pandemia. Além disso, incluímos dados sociodemográficos para uma análise mais detalhada. 
+    Iniciamos com a abordagem dos sintomas, destacando a importância de questões que identificam sintomas característicos, como febre, perda de cheiro ou sabor, tosse, entre outros, os quais são cruciais para a identificação de possíveis padrões de manifestações clínicas.
 
-Além disso, priorizamos perguntas relacionadas ao impacto na saúde e procura por atendimento, que nos permitem avaliar a gravidade da condição de saúde dos indivíduos, a necessidade de recursos médicos e o acesso aos serviços de saúde, evidenciado também pela questão sobre plano de saúde médico.
-É crucial destacar a complexidade da entubação, procedimento delicado que demanda treinamento específico. A escassez de profissionais qualificados para realizar entubações seguras ressalta a necessidade de investimento na formação e preparo de equipes de saúde.
-Considerando o contexto da pandemia do Coronavírus, incorporamos questionamentos sobre as medidas preventivas adotadas, como restrições de contato social e a presença de itens básicos de limpeza e proteção nos domicílios, essenciais para compreender as práticas preventivas e seu impacto na propagação da doença.
+    Além disso, priorizamos perguntas relacionadas ao impacto na saúde e procura por atendimento, que nos permitem avaliar a gravidade da condição de saúde dos indivíduos, a necessidade de recursos médicos e o acesso aos serviços de saúde, evidenciado também pela questão sobre plano de saúde médico.
+    É crucial destacar a complexidade da entubação, procedimento delicado que demanda treinamento específico. A escassez de profissionais qualificados para realizar entubações seguras ressalta a necessidade de investimento na formação e preparo de equipes de saúde.
+    Considerando o contexto da pandemia do Coronavírus, incorporamos questionamentos sobre as medidas preventivas adotadas, como restrições de contato social e a presença de itens básicos de limpeza e proteção nos domicílios, essenciais para compreender as práticas preventivas e seu impacto na propagação da doença.
 
-Por fim, a inclusão de dados sociodemográficos, como idade, sexo, etnia, escolaridade, unidade da federação, entre outros, busca fornecer subsídios para uma análise mais detalhada e estratificada dos resultados, considerando as especificidades de diferentes grupos populacionais.
-Dessa forma, a escolha das perguntas para análise reflete a preocupação em obter dados abrangentes e significativos, capazes de contribuir para uma melhor compreensão dos fenômenos em estudo e para o desenvolvimento de estratégias eficazes no âmbito da saúde pública.
+    Por fim, a inclusão de dados sociodemográficos, como idade, sexo, etnia, escolaridade, unidade da federação, entre outros, busca fornecer subsídios para uma análise mais detalhada e estratificada dos resultados, considerando as especificidades de diferentes grupos populacionais.
+    Dessa forma, a escolha das perguntas para análise reflete a preocupação em obter dados abrangentes e significativos, capazes de contribuir para uma melhor compreensão dos fenômenos em estudo e para o desenvolvimento de estratégias eficazes no âmbito da saúde pública.
 
-Veja abaixo os itens selecionados:
-        | Pergunta | Código | Descrição |
-        | -------- | ------ | --------- |
-        | 1 | B0011 | Na semana passada teve febre? |
-        | 2 | B00110 | Na semana passada teve tosse? |
-        | 3 | B00111 | Na semana passada teve dor de garganta? |
-        | 4 | B00112 | Na semana passada teve dificuldade para respirar? |
-        | 5 | B00113 | Na semana passada teve dor de cabeça? |
-        | 6 | B0012 | Na semana passada teve dor no peito? |
-        | 7 | B0013 | Na semana passada teve náusea? |
-        | 8 | B0014 | Na semana passada teve nariz entupido ou escorrendo? |
-        | 9 | B0015 | Na semana passada teve fadiga? |
-        | 10 | B0016 | Na semana passada teve dor nos olhos? |
-        | 11 | B0017 | Na semana passada teve perda de cheiro ou sabor? |
-        | 12 | B0018 | Na semana passada teve dor muscular? |
-        | 13 | B0019 | Na semana passada teve diarreia? |
-        | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
-        | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
-        | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
-        | 17 | B009B | Qual o resultado? (SWAB) |
-        | 17 | B009D | Qual o resultado? (Dedo) |
-        | 17 | B009F | Qual o resultado? (Veia) |
-        | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
-        | 19 | F002A2 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
-        | 20 | F002A3 | Auxílios emergenciais relacionados ao coronavirus |
+    Veja abaixo os itens selecionados:
+
+    | Pergunta | Código | Descrição |
+    | -------- | ------ | --------- |
+    | 1 | B0011 | Na semana passada teve febre? |
+    | 2 | B00110 | Na semana passada teve tosse? |
+    | 3 | B00111 | Na semana passada teve dor de garganta? |
+    | 4 | B00112 | Na semana passada teve dificuldade para respirar? |
+    | 5 | B00113 | Na semana passada teve dor de cabeça? |
+    | 6 | B0012 | Na semana passada teve dor no peito? |
+    | 7 | B0013 | Na semana passada teve náusea? |
+    | 8 | B0014 | Na semana passada teve nariz entupido ou escorrendo? |
+    | 9 | B0015 | Na semana passada teve fadiga? |
+    | 10 | B0016 | Na semana passada teve dor nos olhos? |
+    | 11 | B0017 | Na semana passada teve perda de cheiro ou sabor? |
+    | 12 | B0018 | Na semana passada teve dor muscular? |
+    | 13 | B0019 | Na semana passada teve diarreia? |
+    | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
+    | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
+    | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
+    | 17 | B009B | Qual o resultado? (SWAB) |
+    | 17 | B009D | Qual o resultado? (Dedo) |
+    | 17 | B009F | Qual o resultado? (Veia) |
+    | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
+    | 19 | F002A2 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
+    | 20 | F002A3 | Auxílios emergenciais relacionados ao coronavirus |
 
 
-        | Código | Descrição |
-        | ------ | --------- |
-        | A002 | Idade do morador |
-        | A003 | Sexo |
-        | A004 | Cor ou raça |
-        | A005 | Escolaridade |
-        | UF | Unidade da Federação |
-        | mês | Mês da pesquisa |
-        | V1022 | Situação do domicílio |
+    | Código | Descrição |
+    | ------ | --------- |
+    | A002 | Idade do morador |
+    | A003 | Sexo |
+    | A004 | Cor ou raça |
+    | A005 | Escolaridade |
+    | UF | Unidade da Federação |
+    | mês | Mês da pesquisa |
+    | V1022 | Situação do domicílio |
 
 
     """)
