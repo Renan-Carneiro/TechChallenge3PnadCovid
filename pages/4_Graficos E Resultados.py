@@ -20,7 +20,7 @@ with tab1:
     st.markdown("""
     ## Faixa Etária e Porcentagem de Teste Positivo
     """)
-    image = Image.open("./imagens/Graficos/barras_teste_positivo_por_sexo.png")
+    image = Image.open("./imagens/Graficos/teste_positivo_por_faixa_etaria.png")
     st.image(image)
     st.markdown("""
     Podemos perceber que as faixas mais novas de idade (0 a 20) apresentaram poucos testes positivos, com maior incidencia de diagnóstico na população econômicamente ativa, e nos idosos.
