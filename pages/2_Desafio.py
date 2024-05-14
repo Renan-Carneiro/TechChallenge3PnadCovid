@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.write(**Introdução**
+st.markdown(**Introdução**
 
 Fomos desafiados a nos imaginarmos como experts em Data Analytics de um grande hospital para entender como foi o comportamento da população durante a pandemia de Coronavírus e para identificar quais seriam os melhores indicadores para o planejamento em um novo cenário de surto da doença.
 
