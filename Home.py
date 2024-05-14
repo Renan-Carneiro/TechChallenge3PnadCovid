@@ -4,7 +4,7 @@ from PIL import Image
 image = Image.open("./imagens/covid.png")
 st.image(image)
 
-st.set_page_config(page_title='Tech Challenge3: PNAD COVID' , page_icon='✔' , layout='wide')
+st.set_page_config(page_title='Tech Challenge3: PNAD COVID' , page_icon=":house:" , layout='wide')
 st.sidebar.success("Selecione uma página acima.")
 
 #Header
