@@ -91,3 +91,9 @@ with tab3:
     st.image(image)
     image = Image.open("./imagens/Base de Dados/4detalhesBasePosQuery.png")
     st.image(image)
+    st.markdown("""
+    3. Foi utilizado então o google collab para fazer o acesso a essa base que criamos com novas consultas SQL. O notebook gerado está incluso no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid).
+    Exemplo de acesso pelo collab:
+    """   )
+    image = Image.open("./imagens/Base de Dados/notebook.png")
+    st.image(image)
