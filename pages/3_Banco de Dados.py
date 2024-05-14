@@ -79,7 +79,9 @@ with tab3:
 
     ## Passos tomados
     
-    1. Foi realizada uma Query em SQL para extrair todos os dados relevantes dos meses de setembro a novembro de 2020. A Query está representada na imagem a seguir, e pode ser encontrada tambem no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid)
+    1. Foi realizada uma Query em SQL para extrair todos os dados relevantes dos meses de setembro a novembro de 2020. A Query está representada na imagem a seguir, e pode ser encontrada tambem no [github](https://github.com/Renan-Carneiro/TechChallenge3PnadCovid).
+    image = Image.open("./imagens/Base de Dados/2QueryBigQuery.png")
+    st.image(image)
 
     Assim, o Google BigQuery desempenhou um papel fundamental ao facilitar o acesso e a manipulação dos dados da PNAD, contribuindo significativamente para a realização da análise proposta e para a obtenção de resultados embasados a partir dessas informações.
     """)
