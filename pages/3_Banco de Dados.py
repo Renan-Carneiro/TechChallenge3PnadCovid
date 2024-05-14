@@ -17,7 +17,7 @@ with tab1:
 
 with tab2:
     st.markdown("""
-    # Selecionado as perguntas
+    # Selecionando as perguntas
     Ao selecionar as perguntas para análise dos dados, consideramos a importância de questões que identificam sintomas, impacto na saúde, acesso a serviços médicos e medidas preventivas durante a pandemia. Além disso, incluímos dados sociodemográficos para uma análise mais detalhada. 
     Iniciamos com a abordagem dos sintomas, destacando a importância de questões que identificam sintomas característicos, como febre, perda de cheiro ou sabor, tosse, entre outros, os quais são cruciais para a identificação de possíveis padrões de manifestações clínicas.
 
