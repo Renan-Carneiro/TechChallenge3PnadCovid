@@ -29,7 +29,7 @@ with tab2:
     Dessa forma, a escolha das perguntas para análise reflete a preocupação em obter dados abrangentes e significativos, capazes de contribuir para uma melhor compreensão dos fenômenos em estudo e para o desenvolvimento de estratégias eficazes no âmbito da saúde pública.
 
     Veja abaixo os itens selecionados:
-
+    ### Perguntas Clínicas
     | Pergunta | Código | Descrição |
     | -------- | ------ | --------- |
     | 1 | B0011 | Na semana passada teve febre? |
@@ -48,14 +48,15 @@ with tab2:
     | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
     | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
     | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
-    | 17 | B009B | Qual o resultado? (SWAB) |
-    | 17 | B009D | Qual o resultado? (Dedo) |
-    | 17 | B009F | Qual o resultado? (Veia) |
+    | 17* | B009B | Qual o resultado? (SWAB) |
+    | 17* | B009D | Qual o resultado? (Dedo) |
+    | 17* | B009F | Qual o resultado? (Veia) |
     | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
     | 19 | F002A2 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
     | 20 | F002A3 | Auxílios emergenciais relacionados ao coronavirus |
+    * Foi considerado apenas uma pergunta para essas 3, visto que juntas elas dão a resposta do teste para COVID de forma geral.
 
-
+    ### Informações Pessoais
     | Código | Descrição |
     | ------ | --------- |
     | A002 | Idade do morador |
